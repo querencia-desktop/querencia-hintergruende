@@ -1,3 +1,3 @@
 # Werkstatt-Ordner, Ausnahme vom Doku-Standard (wie querencia-rechner, DOKU-1, Auftrag pottrauschen 2026-10-20):
-# nachweis/ – Prüfnachweise der Entwicklungs-VM (Protokolle, Bilder der isolierten Läufe); keine Projektdoku, werden im Veröffentlichungsklon herausgefiltert (ENTSCHEIDUNGEN Nr. 9).
+# nachweis/ – Prüfnachweise der Entwicklungs-VM (Protokolle, Bilder der isolierten Läufe); keine Projektdoku, werden im Veröffentlichungsklon herausgefiltert.
 nachweis/

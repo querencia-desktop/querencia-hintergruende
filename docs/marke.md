@@ -5,8 +5,7 @@ dem KI-Vorbehalt aus `COPYRIGHT`), die Werkzeuge in `werkzeug/` unter
 GPL-3.0-or-later, und dürfen nach diesen Lizenzen verwendet, geändert und
 weitergegeben werden. Ausgenommen sind **nur Name und Logo**. Sie sind
 Kennzeichen von Querencia Desktop, keine freien Inhalte, und dürfen **nicht
-für fremde Forks oder fremde Produkte** verwendet werden (ENTSCHEIDUNGEN
-Nr. 5 und Nr. 24).
+für fremde Forks oder fremde Produkte** verwendet werden.
 
 ## Was geschützt ist
 
@@ -51,4 +50,4 @@ Anfragen zur Verwendung von Name oder Logo bitte als Issue im Repo
 [`querencia-desktop/querencia`](https://github.com/querencia-desktop/querencia)
 oder an das GitHub-Konto des Projektbesitzers `pottrauschen`.
 
-Stand: 21.10.2026 (ENTSCHEIDUNGEN Nr. 5 und Nr. 24)
+Stand: 21.10.2026

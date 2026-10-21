@@ -28,7 +28,7 @@ Retusche nur bei „huegel“ (C01): zwei kleine helle Artefaktpunkte unten
 rechts werden vor dem Skalieren durch den 25×25-Median ihrer Umgebung
 ersetzt (Lage im Skript, `RETUSCHE`).
 
-Logo-Fassungen (Markenregel, ENTSCHEIDUNGEN Nr. 5/24) werden aus der
+Logo-Fassungen (Markenregel, `docs/marke.md`) werden aus der
 SVG-Vorlage `logo/querencia-logo-wortmarke.svg` gesetzt, nie aus den
 KI-Bildern; das Rendern übernimmt `logo-rendern-02.py` (System-Python mit
 GdkPixbuf/librsvg), aufgerufen in einen temporären Ordner:

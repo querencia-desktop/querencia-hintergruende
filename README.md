@@ -1,10 +1,12 @@
 # Querencia Hintergründe
 
-Die 16 KI-Hintergründe von Querencia Desktop ab Version 0.2 (Alpha 2):
-ruhige Verläufe, Landschaften und Glasflächen, erzeugt mit FLUX1.1 [pro]
-Ultra (Black Forest Labs) über fal.ai, ausgewählt vom Projektbesitzer.
-Standardbild ist **tiefblau**. Jedes Motiv liegt in 2560×1440 (16:9) und als
-eigener 4:3-Ausschnitt (2048×1536) vor, zusammen 32 PNG-Dateien (104 MB).
+Die 16 neuen Hintergründe (erzeugt mit FLUX1.1 [pro] Ultra, siehe Lizenz)
+von Querencia Desktop ab Version 0.2 (Alpha 2): ruhige Verläufe,
+Landschaften und Glasflächen. Standardbild ist **tiefblau**. Jedes Motiv
+liegt in 2560×1440 (16:9) und als eigener 4:3-Ausschnitt (2048×1536) vor,
+zusammen 32 PNG-Dateien (104 MB).
+Installiert werden sie zusammen mit Querencia Desktop aus der APT-Quelle;
+Anleitung auf <https://querencialinux.org>.
 
 | Motiv | Datei (16:9 / 4:3) |
 |---|---|
@@ -63,11 +65,14 @@ Bilder und Originale: **CC-BY-SA-4.0** (Text in `LICENSE`), Namensnennung
 „Querencia Desktop contributors“; Werkzeuge: GPL-3.0-or-later
 (`werkzeug/LICENSE`). Das Querencia-Logo und die Wortmarke in den Fassungen
 `-logo`, `-wortmarke` und `-wasserzeichen` sind davon ausgenommen
-(`docs/marke.md`). Die Bilder sind KI-erzeugt; rein KI-erzeugte Werke sind
-womöglich nicht urheberrechtlich geschützt, die Lizenzangabe ist dann ein
-Hinweis. Einzelheiten: `COPYRIGHT`, Herkunft je Bild: `docs/herkunft.md`.
+(`docs/marke.md`). Die Bilder sind mit dem Bildmodell FLUX1.1 [pro] Ultra
+(Black Forest Labs, über fal.ai) erzeugt; solche Werke sind in manchen
+Rechtsordnungen womöglich nicht urheberrechtlich geschützt, die Lizenzangabe
+ist dann ein Hinweis zur Nutzung. Einzelheiten: `COPYRIGHT`, Herkunft je
+Bild: `docs/herkunft.md`.
 
 ## Fehler melden
 
 Fehler, Wünsche und Fragen zu Querencia gehen an die gemeinsame Meldestelle:
 <https://github.com/querencia-desktop/querencia/issues/new/choose>.
+Sicherheitslücken: siehe [SECURITY.md](SECURITY.md).
