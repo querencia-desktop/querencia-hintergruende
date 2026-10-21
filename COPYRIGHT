@@ -6,12 +6,12 @@ der Creative-Commons-Lizenz Namensnennung – Weitergabe unter gleichen
 Bedingungen 4.0 International (CC-BY-SA-4.0), Text in LICENSE.
 Namensnennung: „Querencia Desktop contributors“.
 
-Die Werkzeuge in werkzeug/ und integration/ stehen unter der GNU General
+Die Werkzeuge in werkzeug/ stehen unter der GNU General
 Public License, Version 3 oder (nach Wahl) jeder späteren Version
 (GPL-3.0-or-later), Text in werkzeug/LICENSE.
 
 Ausnahme: Name und Logo „Querencia“ sind keine freien Inhalte; es gilt
-docs/marke.md (ENTSCHEIDUNGEN Nr. 5 und Nr. 24). Das betrifft die Vorlage
+docs/marke.md. Das betrifft die Vorlage
 werkzeug/logo/querencia-logo-wortmarke.svg und das aufgeprägte Logo in den
 Bildern querencia-*-logo*.png, querencia-*-wortmarke*.png und
 querencia-*-wasserzeichen*.png; für diese Bilder ist nur das Grundbild frei.
@@ -23,4 +23,4 @@ Nutzer, kommerzielle Nutzung ist erlaubt; die Content Credentials (C2PA) der
 Originale werden nicht entfernt (§6(i)) und liegen unverändert in quellen/.
 Rein KI-erzeugte Bilder sind in manchen Rechtsordnungen womöglich nicht
 urheberrechtlich geschützt; die Lizenzangabe ist dann ein Hinweis zur
-Nutzung, kein durchsetzbarer Schutz (ENTSCHEIDUNGEN Nr. 15 und Nr. 19).
+Nutzung, kein durchsetzbarer Schutz.

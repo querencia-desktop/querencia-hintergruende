@@ -11,3 +11,6 @@ nachweis/anzeige/bilder/
 *.pem
 *.key
 id_rsa*
+# Ausgaben der isolierten Prüfung (nicht einchecken)
+/target
+/nachweis/

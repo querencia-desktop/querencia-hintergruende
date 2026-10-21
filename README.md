@@ -32,8 +32,7 @@ sudo install -m 0644 data/hintergruende/*.png /usr/share/querencia/hintergruende
 ```
 
 Ohne Root-Rechte für einen Benutzer: die Dateien nach
-`~/.local/share/querencia/hintergruende/` kopieren. Auf der
-Entwicklungs-VM gilt `integration/0.2/` (siehe `docs/hintergruende.md`).
+`~/.local/share/querencia/hintergruende/` kopieren.
 
 ## Prüfen und neu erzeugen
 
@@ -55,9 +54,7 @@ TMPDIR=~/.cache/hg02-pruefen python3 -I werkzeug/erzeugen-02.py --pruefen
 data/hintergruende/   32 Bilder und SHA256SUMS (das Paket)
 quellen/              13 fal-Originale mit Content Credentials (C2PA), nicht installiert
 werkzeug/             Erzeuger, Logo-Renderer, Kennzahlen, SHA256SUMS-alle
-integration/0.2/      Live-Weg der Entwicklungs-VM und Proben
 docs/                 Spezifikation, Herkunft, Markenregel
-nachweis/             Prüfbelege
 ```
 
 ## Lizenz
@@ -69,3 +66,8 @@ Bilder und Originale: **CC-BY-SA-4.0** (Text in `LICENSE`), Namensnennung
 (`docs/marke.md`). Die Bilder sind KI-erzeugt; rein KI-erzeugte Werke sind
 womöglich nicht urheberrechtlich geschützt, die Lizenzangabe ist dann ein
 Hinweis. Einzelheiten: `COPYRIGHT`, Herkunft je Bild: `docs/herkunft.md`.
+
+## Fehler melden
+
+Fehler, Wünsche und Fragen zu Querencia gehen an die gemeinsame Meldestelle:
+<https://github.com/querencia-desktop/querencia/issues/new/choose>.
