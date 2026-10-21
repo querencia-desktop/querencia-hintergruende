@@ -1,0 +1,8 @@
+# Ausnahmen für ai-clean/clean_check.py (Hintergründe 0.2, 21.10.2026), wie im
+# Runtime-Repo bewusst OHNE Pfadeinträge: ein Pfad schaltet für ihn alle
+# Prüfungen ab, auch security. Die begründeten Ausnahmen stehen nur als
+# Kommentar hier:
+#
+# S004 Typografie („“, –, …) in integration/ und werkzeug/: deutsche Meldungen
+#      und Kommentare sind Projektstil (gleich wie querencia-runtime,
+#      integration/ und tools/); nicht global ersetzen.

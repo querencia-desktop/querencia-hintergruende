@@ -1,0 +1,13 @@
+# Größen, die nur mit erzeugen-02.py --alle entstehen (nicht im Repo)
+data/hintergruende/*-3840.png
+data/hintergruende/*-1920.png
+__pycache__/
+# Bildschirmfotos der Anzeigeprobe bleiben lokal (16 MB; Auswertung in nachweis/anzeige/auswertung.tsv)
+nachweis/anzeige/bilder/
+
+# Schutz gegen versehentliches Einchecken von Zugangsdaten
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
