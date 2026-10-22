@@ -1,36 +1,33 @@
 # Herkunft der Hintergründe 0.2
 
-Stand 21.10.2026 (QD-093). Herkunft, Erzeuger, Prompts, Bearbeitung und
+Stand 21.10.2026. Herkunft, Erzeuger, Prompts, Bearbeitung und
 Lizenz je Bild in `data/hintergruende/`. Prüfsummen: `data/hintergruende/SHA256SUMS`
 (32 Dateien im Repo und im Paket), `werkzeug/SHA256SUMS-alle` (alle 64
 Dateien, auch 3840 und 1920), `quellen/SHA256SUMS` (13 Originale).
 Erzeugt mit `werkzeug/erzeugen-02.py` (Prüfung `--pruefen`). Übernommen aus
-`querencia-runtime`, Zweig `hintergruende-0.2`, Commit `370eddf`
-(`data/hintergruende/HERKUNFT.md`, Abschnitt „Hintergründe 0.2“); die 17
-Bilder von 0.1 (Querencia Blau, Abend, Blau 2, Erde, Nacht) bleiben im
-Runtime-Repo und sind hier nicht enthalten.
+dem Repo `querencia-shell` (`data/hintergruende/HERKUNFT.md`, Abschnitt
+„Hintergründe 0.2“); die 17 Bilder von 0.1 (Querencia Blau, Abend, Blau 2,
+Erde, Nacht) bleiben dort und sind hier nicht enthalten.
 
-16 vom Besitzer gewählte Bilder aus dem Wallpaper-Test
-(, Auswahl §11: A01, A04, A10, B09, C01,
-C02, C04, C05, C08, C09, C10, D08 sowie die Logo-Fassungen L-A01-L1/L2/L3 und
-L-B03-L1). Entscheidung des Besitzers 21.10.2026 19:50: alle 16 kommen in den
-Alpha-2-Paketsatz, Standardbild ist `tiefblau` (A01), Ablage als eigenes
-Datenrepo und Paket `querencia-hintergruende`.
+16 ausgewählte Bilder aus dem Wallpaper-Test vom 21.10.2026 (Auswahl: A01,
+A04, A10, B09, C01, C02, C04, C05, C08, C09, C10, D08 sowie die
+Logo-Fassungen L-A01-L1/L2/L3 und L-B03-L1). Entscheidung vom 21.10.2026:
+alle 16 kommen in den Alpha-2-Paketsatz, Standardbild ist `tiefblau` (A01),
+Ablage als eigenes Datenrepo und Paket `querencia-hintergruende`.
 
 ## Lizenz
 
-**Freigegeben vom Besitzer am 21.10.2026 19:50** (08 QD-093). Befund der
-Startsession zu den Nutzungsbedingungen: Black Forest Labs, Developer Terms
+**Freigegeben am 21.10.2026.** Befund zu den
+Nutzungsbedingungen: Black Forest Labs, Developer Terms
 vom 4.8.2026, §3(b) und §4(b): die Ausgaben gehören dem Nutzer, kommerzielle
 Nutzung ist erlaubt; §6(i): Content Credentials (C2PA) nicht entfernen.
 
-- Bilder **ohne Logo**: **CC-BY-SA-4.0** mit KI-Vorbehalt wie ENTSCHEIDUNGEN
-  Nr. 15 und Nr. 19. Rein KI-erzeugte Bilder sind in manchen
+- Bilder **ohne Logo**: **CC-BY-SA-4.0** mit KI-Vorbehalt. Rein KI-erzeugte Bilder sind in manchen
   Rechtsordnungen womöglich nicht urheberrechtlich geschützt; die
   Lizenzangabe ist dann ein Hinweis zur Nutzung, kein durchsetzbarer Schutz.
 - Bilder **mit Q-Logo oder Wortmarke** (`-logo`, `-wortmarke`,
   `-wasserzeichen`): das Grundbild wie oben, das Logo zusätzlich unter der
-  **Markenregel** (Nr. 5, Nr. 24, `docs/marke.md`). Das Logo ist Kennzeichen
+  **Markenregel** (`docs/marke.md`). Das Logo ist Kennzeichen
   von Querencia Desktop, nicht frei und von der Bildlizenz ausgenommen; es
   wurde per Skript aus der SVG-Vorlage aufgeprägt, nie von der KI gemalt.
 - **Content Credentials:** Die bearbeiteten Ableitungen in
@@ -47,10 +44,10 @@ Nutzung ist erlaubt; §6(i): Content Credentials (C2PA) nicht entfernen.
 | Dienst | fal.ai, Endpunkt `fal-ai/flux-pro/v1.1-ultra` |
 | Modell | **FLUX1.1 [pro] Ultra** (Black Forest Labs) |
 | Datum | 21.10.2026, 18:10:43 bis 18:12:54 Uhr (Zeitstempel der Antwortdateien) |
-| Bediener | Worker-Session Wallpaper-Test im Auftrag der Startsession, Zugangsschlüssel des Besitzers |
+| Bediener | Wallpaper-Test des Projekts |
 | Parameter | `aspect_ratio 16:9`, `output_format png`, `num_images 1`, `enable_safety_checker true`, `safety_tolerance "2"`; `raw true` nur bei den Landschaften (C) |
 | Ergebnis | 2752×1536 PNG je Bild, 0,06 USD je Bild |
-| Prompts, Antworten | `~/projects/querencia-wallpaper-test/prompts.md`, `logs/<Bild>.json` (kein Repo); Grundprompt und Variation je Motiv unten |
+| Prompts, Antworten | Wallpaper-Test vom 21.10.2026 (Prompts und Antwortdateien, nicht veröffentlicht); Grundprompt und Variation je Motiv unten |
 | Logo | nicht von der KI: aus `werkzeug/logo/querencia-logo-wortmarke.svg` (Kopie von `querencia-web/assets/querencia-logo.svg`, Commit `57a7697`, SHA256 `d96aebff8ce943de…`) mit `werkzeug/logo-rendern-02.py` gerendert und von `werkzeug/erzeugen-02.py` aufgeprägt |
 
 Grundprompts (die Variation steht je Motiv in der Tabelle):
@@ -76,8 +73,8 @@ Grundprompts (die Variation steht je Motiv in der Tabelle):
 
 ## Quellen
 
-`quellen/<Familie>/<Bild>.png`: die 13 fal-Originale, byte-gleich aus
-`~/projects/querencia-wallpaper-test/kandidaten/` kopiert (Chunks IHDR,
+`quellen/<Familie>/<Bild>.png`: die 13 fal-Originale, byte-gleich aus den
+Kandidaten des Wallpaper-Tests vom 21.10.2026 kopiert (Chunks IHDR,
 IDAT, IEND und C2PA `caBX`). 13 statt 16, weil die vier Logo-Fassungen aus
 A01 und B03 entstehen; die Testdateien `kandidaten/L/L-*.png` sind lokale
 Ableitungen ohne C2PA und werden nicht verwendet.
